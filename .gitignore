@@ -1,0 +1,68 @@
+# ======================
+# Database Files
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================
+# Jupyter Notebook
+# ======================
+# Checkpoint files created by Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ======================
+# Python
+# ======================
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ======================
+# Data Files (large)
+# ======================
+*.csv
+*.xlsx
+*.xls
+*.json
+data/
+
+# ======================
+# OS & Editor Files
+# ======================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# ======================
+# Output / Temp Files
+# ======================
+*.log
+*.tmp
+outputs/
